@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  resources :users, only: [:new, :create]
+  resources :users, only: %i[index new create edit update show]
+  root 'users#index'
 end

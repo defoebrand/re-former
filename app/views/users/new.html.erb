@@ -20,10 +20,10 @@
     <%= form.text_field :username %>
 <br />
     <%= label_tag(:email, "Email: ") %>
-    <%= form.email_field :email %>
+    <%= form.email :email %>
 <br />
     <%= label_tag(:password, "Password: ") %>
-    <%= form.password_field :password %>
+    <%= form.password :password %>
 <br />
     <%= form.submit "Create" %>
   <% end %>
