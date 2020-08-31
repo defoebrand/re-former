@@ -14,16 +14,33 @@
    <input type="submit" value="Create" />
  </form> -->
 
+  <%# form_with model: @user do |form| %>
+
+    <%# label_tag(:username, "Username:") %>
+    <%# form.text_field :username %>
+<%# <br /> %>
+    <%# label_tag(:email, "Email: ") %>
+    <%# form.text_field :email %>
+<%# <br /> %>
+    <%# label_tag(:password, "Password: ") %>
+    <%# form.text_field :password %>
+<%# <br /> %>
+    <%# form.submit "Create" %>
+  <%# <% end %> 
+
+
   <%= form_with model: @user do |form| %>
 
     <%= label_tag(:username, "Username:") %>
     <%= form.text_field :username %>
-<br />
+    <br />
     <%= label_tag(:email, "Email: ") %>
-    <%= form.email :email %>
-<br />
-    <%= label_tag(:password, "Password: ") %>
-    <%= form.password :password %>
-<br />
+    <%= form.email_field :email %>
+    <br />
+    <%= label_tag(:password, "Password: ") %>    
+    <%= form.password_field :password %>
+    <br />
     <%= form.submit "Create" %>
   <% end %>
+
+  
