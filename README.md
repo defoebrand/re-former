@@ -9,7 +9,6 @@
 -   Ruby
 -   Ruby on Rails
 -   VS Code \* Atom
--   Ubuntu & Mac
 
 ## Getting Started
 
