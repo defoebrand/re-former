@@ -1,26 +1,55 @@
-# README
+# Bare-metal Rails Form
 
-Odin Project Rails Forms Readme
+> A mini example application of Ruby on Rails forms.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![screenshot](public/screenshot.png)
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+-   Ruby
+-   Ruby on Rails
+-   VS Code \* Atom
+-   Ubuntu & Mac
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+1.  Ruby 2.7
+2.  Rails 6
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+1.  Clone this repository with
+    `git clone https://github.com/m15e/re-former.git` using your terminal or command line.
+2.  Change to the project directory by entering `cd re-former` in the terminal
+3.  Next run `bundle install` to install the necessary dependencies
+4.  Run `rails db:migrate` to setup your local database.
+5.  Finally run `rails server` to start the application.
 
-* Deployment instructions
+## Authors
 
-* ...
+👤 **Mark Rode**
+
+-   Github: [@m15e](https://github.com/m15e)
+
+👤 **Brandon Defoe**
+
+-   Github: [@defoebrand](https://github.com/defoebrand)
+-   LinkedIn: [@defoebrand](https://www.linkedin.com/in/defoebrand/)
+-   Gmail: <mailto:defoe.brand@gmail.com>
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+-   The Odin Project
+-   Microverse
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
