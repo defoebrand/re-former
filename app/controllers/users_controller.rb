@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-  include UsersHelper
   def new
     @user = User.new
   end
@@ -27,4 +26,10 @@ class UsersController < ApplicationController
     @user.update(user_params)
     redirect_to user_path
   end
+end
+
+private
+
+def user_params
+  params.require(:user).permit(:username, :email, :password)
 end
