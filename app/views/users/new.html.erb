@@ -1,0 +1,28 @@
+<h1>New User Registration</h1>
+
+<!-- <form accept-charset="UTF-8" action="/users" method="patch">
+   <input type="hidden" name="authenticity_token" value="<% form_authenticity_token %>">
+   <label for="username">Username: </label>
+   <input name="user[username]" type="text" value="<%@user.username%>" /><br />
+   <label for="email">Email: </label>
+   <input name="user[email]" type="email" value="<%@user.email%>" /><br />
+   <label for="password">Password: </label>
+   <input name="user[password]" type="password" value="<%@user.password%>" /><br />
+   <input type="submit" value="Create" />
+ </form> -->
+
+ <%#form_tag(url: "/user", method: "patch") do %>
+ <%# label_tag(:username, "Username:") %>
+<%#text_field_tag(:username) %>
+<!-- <br /> -->
+<%#label_tag(:email, "Email: ") %>
+<%# email_field_tag(:email) %>
+<!-- <br /> -->
+<%# label_tag(:password, "Password: ") %>
+<%# password_field_tag(:password) %>
+<!-- <br /> -->
+<%# submit_tag("Create") %>
+<%# end %>
+
+
+<%= render 'form' %>
